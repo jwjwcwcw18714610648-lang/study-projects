@@ -9,6 +9,15 @@ import java.util.Date;
 public class VideoDanmuQuery extends BaseParam {
 
 	private String videoUserId;
+	private String videoNameFuzzy;
+
+	public String getVideoNameFuzzy() {
+		return videoNameFuzzy;
+	}
+
+	public void setVideoNameFuzzy(String videoNameFuzzy) {
+		this.videoNameFuzzy = videoNameFuzzy;
+	}
 
 	public Boolean getQueryVideoInfo() {
 		return queryVideoInfo;

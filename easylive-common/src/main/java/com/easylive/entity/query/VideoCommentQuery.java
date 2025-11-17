@@ -43,6 +43,15 @@ public class VideoCommentQuery extends BaseParam {
 	private String videoId;
 
 	private String videoIdFuzzy;
+	private String videoNameFuzzy;
+
+	public String getVideoNameFuzzy() {
+		return videoNameFuzzy;
+	}
+
+	public void setVideoNameFuzzy(String videoNameFuzzy) {
+		this.videoNameFuzzy = videoNameFuzzy;
+	}
 
 	/**
 	 * 视频用户ID

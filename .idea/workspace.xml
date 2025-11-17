@@ -4,7 +4,158 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fe5432-59d6-4546-aa5a-6d9cb809bbf4" name="更改" comment="BzhanHouDuan" />
+    <list default="true" id="94fe5432-59d6-4546-aa5a-6d9cb809bbf4" name="更改" comment="BzhanHouDuan">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/EasyliveAdminRunApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/EasyliveAdminRunApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/ABaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/ABaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/VideoInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/controller/VideoInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/interceptor/AppInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/interceptor/AppInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/interceptor/WebAppConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-admin/target/classes/com/easylive/admin/interceptor/WebAppConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/entity/query/VideoCommentQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/entity/query/VideoCommentQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/entity/query/VideoDanmuQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/entity/query/VideoDanmuQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/mappers/StatisticsInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/mappers/StatisticsInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/service/impl/StatisticsInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/service/impl/StatisticsInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/src/main/resources/com/easylive/mappers/StatisticsInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/src/main/resources/com/easylive/mappers/StatisticsInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/annotation/RecordUserMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/annotation/RecordUserMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/aspect/UserMessageOperationAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/aspect/UserMessageOperationAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/component/EsSearchComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/component/EsSearchComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/component/RedisComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/component/RedisComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/controller/AGlobalExceptionHandlerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/controller/AGlobalExceptionHandlerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/config/EsConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/config/EsConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/CountInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/CountInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/SysSettingDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/SysSettingDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/TokenUserInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/TokenUserInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/UploadingFileDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/UploadingFileDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/UserMessageCountDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/UserMessageCountDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/UserMessageExtendDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/UserMessageExtendDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/VideoInfoEsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/VideoInfoEsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/VideoPlayInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/dto/VideoPlayInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/CommentTopTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/CommentTopTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/DateTimePatternEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/DateTimePatternEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/FileTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/FileTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/MessageReadTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/MessageReadTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/MessageTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/MessageTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/PageSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/PageSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/ResponseCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/ResponseCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/SearchOrderTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/SearchOrderTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/StatisticsTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/StatisticsTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/UserActionTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/UserActionTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/UserSexEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/UserSexEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/UserStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/UserStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoFileTransferResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoFileTransferResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoFileUpdateTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoFileUpdateTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoOrderTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoOrderTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoRecommendTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoRecommendTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/enums/VideoStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/CategoryInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/CategoryInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/StatisticsInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/StatisticsInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserCountInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserCountInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserFocus.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserFocus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserVideoSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserVideoSeries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserVideoSeriesVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/UserVideoSeriesVideo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoDanmu.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoDanmu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfoFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfoFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfoFilePost.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfoFilePost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfoPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoInfoPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoPlayHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/po/VideoPlayHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/BaseParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/BaseParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/CategoryInfoQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/CategoryInfoQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/SimplePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/SimplePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/StatisticsInfoQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/StatisticsInfoQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserActionQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserActionQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserFocusQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserFocusQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserInfoQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserInfoQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserMessageQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserMessageQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserVideoSeriesQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserVideoSeriesQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserVideoSeriesVideoQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/UserVideoSeriesVideoQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoCommentQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoCommentQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoDanmuQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoDanmuQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoFilePostQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoFilePostQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoFileQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoFileQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoPostQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoPostQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoInfoQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoPlayHistoryQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/query/VideoPlayHistoryQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/PaginationResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/PaginationResultVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/ResponseVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/ResponseVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/UserInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/UserInfoVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/UserVideoSeriesDetailVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/UserVideoSeriesDetailVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoCommentResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoCommentResultVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoInfoResultVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoInfoResultVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoPostEditInfoVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoPostEditInfoVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoStatusCountInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/entity/vo/VideoStatusCountInfoVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/exception/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/exception/BusinessException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/BaseMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/BaseMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/BaseMapperTableSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/BaseMapperTableSplit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/CategoryInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/CategoryInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/StatisticsInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/StatisticsInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/StatisticsInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/StatisticsInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserActionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserActionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserFocusMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserFocusMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserMessageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserMessageMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserVideoSeriesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserVideoSeriesMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserVideoSeriesVideoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/UserVideoSeriesVideoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoCommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoCommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoDanmuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoDanmuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoFileMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoFileMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoFilePostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoFilePostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoPostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoInfoPostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoPlayHistoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/mappers/VideoPlayHistoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/redis/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/redis/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/redis/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/redis/RedisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/CategoryInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/CategoryInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/StatisticsInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/StatisticsInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserActionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserActionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserFocusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserFocusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserMessageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserVideoSeriesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserVideoSeriesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserVideoSeriesVideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/UserVideoSeriesVideoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoCommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoCommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoDanmuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoDanmuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoFilePostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoFilePostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoFileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoPostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoPostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoPlayHistoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/VideoPlayHistoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/CategoryInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/CategoryInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/StatisticsInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/StatisticsInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserActionServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserActionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserActionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserFocusServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserFocusServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserMessageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserMessageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserVideoSeriesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserVideoSeriesServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserVideoSeriesVideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/UserVideoSeriesVideoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoCommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoCommentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoDanmuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoDanmuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoFilePostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoFilePostServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoFileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoFileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoPostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoPostServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoPlayHistoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/service/impl/VideoPlayHistoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/CopyTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/CopyTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/DateUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/DateUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/FFmpegUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/FFmpegUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/JsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/ProcessUtils$PrintStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/ProcessUtils$PrintStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/ProcessUtils$ProcessKiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/ProcessUtils$ProcessKiller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/ProcessUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/ProcessUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/StringTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/easylive-common/target/classes/com/easylive/utils/StringTools.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +178,7 @@
         <option name="title" value="Current Branch" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/easylive-web" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -103,54 +254,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.EasyliveAdminRunApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EasyliveWebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/148yuanb/easylive-java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.EasyliveAdminRunApplication.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.EasyliveWebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.SampleAlgorithmDemo.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.EasyliveAdminRunApplication.executor": "Run",
+    "Spring Boot.EasyliveWebApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/148yuanb/easylive-java/easylive-admin/src/main/java/com/easylive/admin/controller",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.EasyliveAdminRunApplication.executor": "Run",
+    "应用程序.EasyliveWebApplication.executor": "Run",
+    "应用程序.SampleAlgorithmDemo.executor": "Run"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\148yuanb\easylive-java\easylive-admin\src\main\java\com\easylive\admin\controller" />
+      <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\entity\enums" />
       <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\entity\dto" />
       <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\service\impl" />
       <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\service" />
-      <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\mappers" />
-      <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\entity\query" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.easylive.web.controller" />
@@ -318,6 +469,8 @@
       <workItem from="1763297148836" duration="2209000" />
       <workItem from="1763299389136" duration="89000" />
       <workItem from="1763299519638" duration="409000" />
+      <workItem from="1763299944942" duration="5108000" />
+      <workItem from="1763366166815" duration="6445000" />
     </task>
     <task id="LOCAL-00001" summary="HouDuan">
       <option name="closed" value="true" />
@@ -376,7 +529,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="3" />
                       </list>
                     </value>
                   </entry>

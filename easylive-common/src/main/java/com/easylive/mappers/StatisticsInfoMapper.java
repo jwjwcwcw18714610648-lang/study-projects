@@ -36,4 +36,8 @@ public interface StatisticsInfoMapper<T,P> extends BaseMapper<T,P> {
 								 @Param("actionTypeArray") Integer[] actionTypeArray);
 
 	Map<String, Integer> selectTotalCountInfo(@Param("userId") String userId);
+
+	List<T> selectListTotalInfoByParam(@Param("query") P p);
+
+	List<T> selectUserCountTotalInfoByParam(@Param("query") P p);
 }
