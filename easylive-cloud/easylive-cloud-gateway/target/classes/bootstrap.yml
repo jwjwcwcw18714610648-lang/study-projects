@@ -1,0 +1,53 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: easylive-cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        shared-configs:
+          - ${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+
+    gateway:
+      routes:
+        #视频模块
+        - id: video
+          uri: lb://easylive-cloud-web
+          predicates:
+            - Path=/web/**
+          filters:
+            - StripPrefix=1
+        #互动服务
+        - id: interact
+          uri: lb://easylive-cloud-interact
+          predicates:
+            - Path=/interact/**
+          filters:
+            - StripPrefix=1
+        #用户模块
+        - id: user
+          uri: lb://easylive-cloud-ucenter
+          predicates:
+            - Path=/user/**
+          filters:
+            - StripPrefix=1
+        #资源服务
+        - id: resource
+          uri: lb://easylive-cloud-resource
+          predicates:
+            - Path=/file/**
+          filters:
+            - StripPrefix=1
+        #admin服务
+        - id: admin
+          uri: lb://easylive-cloud-admin
+          predicates:
+            - Path=/admin/**
+          filters:
+            - StripPrefix=1
+            - AdminFilter
