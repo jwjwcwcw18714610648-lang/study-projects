@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="easylive-cloud-admin" />
+        <module name="easylive-web" />
+        <module name="easylive-cloud-gateway (1)" />
+        <module name="easylive-admin" />
+        <module name="easylive-cloud-gateway (2)" />
+        <module name="easylive-common" />
+        <module name="easylive-cloud-resource" />
+        <module name="easylive-cloud-base" />
+        <module name="easylive-cloud-common" />
+        <module name="easylive-cloud-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="easylive-admin" options="-parameters" />
+      <module name="easylive-cloud-admin" options="-parameters" />
+      <module name="easylive-cloud-base" options="-parameters" />
+      <module name="easylive-cloud-common" options="-parameters" />
+      <module name="easylive-cloud-gateway (1)" options="-parameters" />
+      <module name="easylive-cloud-gateway (2)" options="-parameters" />
+      <module name="easylive-cloud-resource" options="-parameters" />
+      <module name="easylive-cloud-web" options="-parameters" />
+      <module name="easylive-common" options="-parameters" />
+      <module name="easylive-web" options="-parameters" />
+    </option>
+  </component>
+</project>

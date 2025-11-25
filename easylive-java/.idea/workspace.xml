@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94fe5432-59d6-4546-aa5a-6d9cb809bbf4" name="更改" comment="BzhanHouDuan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.path_IS_UNDEFINED/logs/appname_IS_UNDEFINED.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.path_IS_UNDEFINED/logs/appname_IS_UNDEFINED.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jwjwcwcw18714610648-lang&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jwjwcwcw18714610648-lang/study-projects.git&quot;,
+    &quot;accountId&quot;: &quot;4f47644b-6575-4838-a4be-e97b8ac3a0ac&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_462/src.zip!/java/lang/Boolean.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_462/src.zip!/java/lang/Integer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_462/src.zip!/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_462/src.zip!/javax/sql/DataSource.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar!/org/apache/catalina/connector/Request.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar!/org/apache/catalina/connector/RequestFacade.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar!/org/apache/catalina/core/ApplicationFilterChain.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar!/org/apache/coyote/Request.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar!/org/apache/tomcat/util/buf/ByteChunk.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar!/org/apache/tomcat/util/buf/MessageBytes.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-core/9.0.83/tomcat-embed-core-9.0.83.jar!/org/apache/tomcat/util/http/MimeHeaders.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.83/tomcat-embed-websocket-9.0.83.jar!/org/apache/tomcat/websocket/server/WsFilter.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/elasticsearch/client/elasticsearch-rest-client/7.17.15/elasticsearch-rest-client-7.17.15.jar!/org/elasticsearch/client/RequestOptions.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/data/spring-data-elasticsearch/4.4.18/spring-data-elasticsearch-4.4.18.jar!/org/springframework/data/elasticsearch/client/ClientConfiguration.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/data/spring-data-elasticsearch/4.4.18/spring-data-elasticsearch-4.4.18.jar!/org/springframework/data/elasticsearch/client/RestClients.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/data/spring-data-redis/2.7.18/spring-data-redis-2.7.18.jar!/org/springframework/data/redis/core/DefaultValueOperations.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/data/spring-data-redis/2.7.18/spring-data-redis-2.7.18.jar!/org/springframework/data/redis/core/RedisTemplate.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar!/org/springframework/aop/framework/AdvisedSupport.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar!/org/springframework/aop/framework/CglibAopProxy.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar!/org/springframework/aop/framework/DefaultAdvisorChainFactory.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar!/org/springframework/aop/framework/adapter/GlobalAdvisorAdapterRegistry.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar!/org/springframework/aop/support/StaticMethodMatcherPointcut.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-aop/5.3.31/spring-aop-5.3.31.jar!/org/springframework/aop/target/SingletonTargetSource.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-core/5.3.31/spring-core-5.3.31.jar!/org/springframework/cglib/proxy/MethodProxy.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-tx/5.3.31/spring-tx-5.3.31.jar!/org/springframework/transaction/interceptor/AbstractFallbackTransactionAttributeSource.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-tx/5.3.31/spring-tx-5.3.31.jar!/org/springframework/transaction/interceptor/BeanFactoryTransactionAttributeSourceAdvisor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-tx/5.3.31/spring-tx-5.3.31.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-tx/5.3.31/spring-tx-5.3.31.jar!/org/springframework/transaction/interceptor/TransactionAttributeSourcePointcut.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-tx/5.3.31/spring-tx-5.3.31.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar!/org/springframework/web/context/request/ServletRequestAttributes.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar!/org/springframework/web/filter/FormContentFilter.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar!/org/springframework/web/filter/OncePerRequestFilter.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar!/org/springframework/web/filter/RequestContextFilter.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-web/5.3.31/spring-web-5.3.31.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-webmvc/5.3.31/spring-webmvc-5.3.31.jar!/org/springframework/web/servlet/DispatcherServlet.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-webmvc/5.3.31/spring-webmvc-5.3.31.jar!/org/springframework/web/servlet/FrameworkServlet.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../maven/maven-localpack/org/springframework/spring-webmvc/5.3.31/spring-webmvc-5.3.31.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\maven\apache-maven-3.9.11" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="32dOoMoqBElpcJMv2NIaG7El5Mq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EasyliveAdminRunApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EasyliveWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/148yuanb/easylive-java/easylive-admin/src/main/java/com/easylive/admin/controller&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.EasyliveAdminRunApplication.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.EasyliveWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.SampleAlgorithmDemo.executor&quot;: &quot;Run&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\148yuanb\easylive-java\easylive-admin\src\main\java\com\easylive\admin\controller" />
+      <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\entity\enums" />
+      <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\entity\dto" />
+      <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\service\impl" />
+      <recent name="D:\148yuanb\easylive-java\easylive-common\src\main\java\com\easylive\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.easylive.web.controller" />
+      <recent name="com.easylive.entity.dto" />
+      <recent name="com.easylive.entity.po" />
+      <recent name="com.easylive.web.annotation" />
+      <recent name="com.easylive.component" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EasyliveAdminRunApplication">
+    <configuration name="EasyliveAdminRunApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easylive.admin.EasyliveAdminRunApplication" />
+      <module name="easylive-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylive.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyliveWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easylive.web.EasyliveWebApplication" />
+      <module name="easylive-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylive.admin.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleAlgorithmDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easylive.web.test.SampleAlgorithmDemo" />
+      <module name="easylive-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylive.web.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="easylive-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="easylive-java" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EasyliveAdminRunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easylive-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.easylive.admin.EasyliveAdminRunApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylive.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyliveWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easylive-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.easylive.web.EasyliveWebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easylive.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EasyliveAdminRunApplication" />
+        <item itemvalue="Spring Boot.EasyliveWebApplication" />
+        <item itemvalue="应用程序.SampleAlgorithmDemo" />
+        <item itemvalue="应用程序.EasyliveWebApplication" />
+        <item itemvalue="应用程序.EasyliveAdminRunApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="逻辑" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="94fe5432-59d6-4546-aa5a-6d9cb809bbf4" name="更改" comment="" />
+      <created>1757747157062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757747157062</updated>
+      <workItem from="1757747158208" duration="7549000" />
+      <workItem from="1757779531395" duration="2414000" />
+      <workItem from="1757783018474" duration="158000" />
+      <workItem from="1757807959977" duration="6000" />
+      <workItem from="1757857050318" duration="2270000" />
+      <workItem from="1757860873602" duration="7934000" />
+      <workItem from="1757893907725" duration="21000" />
+      <workItem from="1758550287726" duration="8752000" />
+      <workItem from="1758713469298" duration="9129000" />
+      <workItem from="1758764598841" duration="15633000" />
+      <workItem from="1758872132710" duration="43000" />
+      <workItem from="1758976404309" duration="14629000" />
+      <workItem from="1759025377256" duration="18967000" />
+      <workItem from="1759158062572" duration="1485000" />
+      <workItem from="1759507826730" duration="21543000" />
+      <workItem from="1759839880327" duration="8969000" />
+      <workItem from="1759936676382" duration="901000" />
+      <workItem from="1760200668309" duration="4493000" />
+      <workItem from="1760290012257" duration="1854000" />
+      <workItem from="1760311661067" duration="28000" />
+      <workItem from="1760424503555" duration="4495000" />
+      <workItem from="1760429161189" duration="10371000" />
+      <workItem from="1760512588454" duration="36236000" />
+      <workItem from="1760918121752" duration="8469000" />
+      <workItem from="1761013702936" duration="270000" />
+      <workItem from="1761041527053" duration="12819000" />
+      <workItem from="1761469765968" duration="3117000" />
+      <workItem from="1761522715223" duration="2398000" />
+      <workItem from="1761545796370" duration="1043000" />
+      <workItem from="1761768685898" duration="7582000" />
+      <workItem from="1761962170920" duration="19573000" />
+      <workItem from="1762127466998" duration="603000" />
+      <workItem from="1762239304202" duration="50116000" />
+      <workItem from="1762552087374" duration="2695000" />
+      <workItem from="1762584788819" duration="49000" />
+      <workItem from="1762585246442" duration="16837000" />
+      <workItem from="1762672718352" duration="6621000" />
+      <workItem from="1762736782803" duration="49000" />
+      <workItem from="1762782912079" duration="13000" />
+      <workItem from="1762782981547" duration="1764000" />
+      <workItem from="1762841290803" duration="17165000" />
+      <workItem from="1762922247145" duration="5772000" />
+      <workItem from="1762935921576" duration="3534000" />
+      <workItem from="1762939631690" duration="113000" />
+      <workItem from="1762939759337" duration="58000" />
+      <workItem from="1762939829511" duration="52000" />
+      <workItem from="1762939893071" duration="135000" />
+      <workItem from="1762940050166" duration="15878000" />
+      <workItem from="1763291095005" duration="68000" />
+      <workItem from="1763291170874" duration="72000" />
+      <workItem from="1763297148836" duration="2209000" />
+      <workItem from="1763299389136" duration="89000" />
+      <workItem from="1763299519638" duration="409000" />
+      <workItem from="1763299944942" duration="5108000" />
+      <workItem from="1763366166815" duration="6799000" />
+      <workItem from="1763395774754" duration="100000" />
+      <workItem from="1763459810795" duration="91000" />
+      <workItem from="1764066112948" duration="2010000" />
+    </task>
+    <task id="LOCAL-00001" summary="HouDuan">
+      <option name="closed" value="true" />
+      <created>1763297390717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763297390717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BzhanHouDuan">
+      <option name="closed" value="true" />
+      <created>1763298227465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763298227465</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BzhanHouDuan">
+      <option name="closed" value="true" />
+      <created>1763298356203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763298356203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BzhanHouDuan">
+      <option name="closed" value="true" />
+      <created>1763299233921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763299233921</updated>
+    </task>
+    <task id="LOCAL-00005" summary="BzhanHouDuan">
+      <option name="closed" value="true" />
+      <created>1763299464389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763299464389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="HouDuan" />
+    <MESSAGE value="BzhanHouDuan" />
+    <option name="LAST_COMMIT_MESSAGE" value="BzhanHouDuan" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/aspect/UserMessageOperationAspect.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/easylive-common/src/main/java/com/easylive/service/impl/VideoInfoPostServiceImpl.java</url>
+          <line>438</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="getRequestURI()" />
+        <watch expression="if (request.getRequestURI().contains(&quot;/account&quot;)) " />
+        <watch expression="request.getRequestURI()" />
+        <watch expression="token" />
+        <watch expression="arguments" />
+        <watch expression="e" />
+        <watch expression="recordUserMessage" />
+        <watch expression="parameters" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
