@@ -5,13 +5,16 @@ import com.easylive.entity.config.AppConfig;
 import com.easylive.entity.constants.Constants;
 import com.easylive.entity.enums.DateTimePatternEnum;
 import com.easylive.entity.enums.ResponseCodeEnum;
+import com.easylive.entity.po.VideoInfoFilePost;
 import com.easylive.entity.vo.ResponseVO;
 import com.easylive.exception.BusinessException;
+import com.easylive.service.VideoInfoFilePostService;
 import com.easylive.utils.DateUtil;
 import com.easylive.utils.FFmpegUtils;
 import com.easylive.utils.StringTools;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
@@ -35,6 +38,8 @@ public class FileController extends ABaseController{
     private AppConfig appConfig;
     @Resource
     private FFmpegUtils fFmpegUtils;
+    @Resource
+    private VideoInfoFilePostService videoInfoFilePostService;
     @RequestMapping("/uploadImage")
     public ResponseVO uploadImage(@NotNull MultipartFile file,@NotNull Boolean createThumbnail) throws IOException {
 String month= DateUtil.format(new Date(), DateTimePatternEnum.YYYYMM.getPattern());
@@ -83,5 +88,18 @@ return getSuccessResponseVO(Constants.FILE_COVER+month+"/"+realFileName);
         } catch (Exception e) {
             log.error("读取文件异常", e);
         }
+    }
+    @RequestMapping("/videoResource/{fileId}")
+    public void getVideoResource(HttpServletResponse response, @PathVariable @NotEmpty String fileId) {
+        VideoInfoFilePost videoInfoFilePost = videoInfoFilePostService.getVideoInfoFilePostByFileId(fileId);
+        String filePath = videoInfoFilePost.getFilePath();
+        readFile(response, filePath + "/" + Constants.M3U8_NAME);
+    }
+
+    @RequestMapping("/videoResource/{fileId}/{ts}")
+    public void getVideoResourceTs(HttpServletResponse response, @PathVariable @NotEmpty String fileId, @PathVariable @NotNull String ts) {
+        VideoInfoFilePost videoInfoFilePost = videoInfoFilePostService.getVideoInfoFilePostByFileId(fileId);
+        String filePath = videoInfoFilePost.getFilePath() + "";
+        readFile(response, filePath + "/" + ts);
     }
 }

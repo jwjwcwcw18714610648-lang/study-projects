@@ -92,23 +92,6 @@ public class AccountController extends ABaseController { // 继承基础控制�
 			return getSuccessResponseVO(tokenUserInfoDto);
 		} finally {
 			redisComponent.cleanCheckCode(checkCodeKey);
-		/*	Cookie[] cookies = request.getCookies();
-			if (cookies != null) {
-				String token = null;
-				for (Cookie cookie : cookies) {
-					if (Constants.TOKEN_WEB.equals(cookie.getName())) {
-						token = cookie.getValue();
-					}
-				}
-				if (!StringTools.isEmpty(token)) {
-
-
-
-
-					redisComponent.cleanToken(token);
-
-				}
-			}*/
 		}
 	}
 

@@ -1,5 +1,6 @@
 package com.easylive.controller;
 
+import com.easylive.api.consumer.InteractClient;
 import com.easylive.component.EsSearchComponent;
 import com.easylive.component.RedisComponent;
 import com.easylive.entity.constants.Constants;
@@ -40,7 +41,8 @@ public class VideoController extends ABaseController {
     private EsSearchComponent esSearchComponent;
     @Resource
     private VideoInfoFileService videoInfoFileService;
-
+    @Resource
+    private InteractClient interactClient;
 
 //    @Resource
 //    private UserActionService userActionService;
@@ -84,13 +86,15 @@ public class VideoController extends ABaseController {
             actionQuery.setUserId(userInfoDto.getUserId());
             actionQuery.setActionTypeArray(new Integer[]{UserActionTypeEnum.VIDEO_LIKE.getType(), UserActionTypeEnum.VIDEO_COLLECT.getType(),
                     UserActionTypeEnum.VIDEO_COIN.getType(),});
-            //TODO
+
 //            userActionList = userActionService.findListByParam(actionQuery);//查询条件里把三种行为类型一次性传进去，SQL 会返回当前用户对这条视频的所有匹配行为记录（0～3 条）。
             //拿到的 userActionList 里：
             //如果有 VIDEO_LIKE 记录 → 表示已点赞
             //如果有 VIDEO_COIN 记录 → 表示已投币
             //如果有 VIDEO_COLLECT 记录 → 表示已收藏
+            userActionList=interactClient.getUserActionList(actionQuery);
         }
+
         VideoInfoResultVO videoInfoResultVO=new VideoInfoResultVO(videoInfo,userActionList);
         return getSuccessResponseVO(videoInfoResultVO);
     }

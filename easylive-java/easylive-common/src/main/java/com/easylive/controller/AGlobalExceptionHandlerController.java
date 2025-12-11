@@ -1,4 +1,4 @@
-package com.easylive;
+package com.easylive.controller;
 
 import com.easylive.entity.enums.ResponseCodeEnum;
 import com.easylive.entity.vo.ResponseVO;

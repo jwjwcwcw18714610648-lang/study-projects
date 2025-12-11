@@ -12,6 +12,7 @@
         <module name="easylive-admin" />
         <module name="easylive-common" />
         <module name="easylive-cloud-resource" />
+        <module name="easylive-cloud-gateway" />
         <module name="easylive-cloud-base" />
         <module name="easylive-cloud-common" />
         <module name="easylive-cloud-web" />
@@ -28,6 +29,7 @@
       <module name="easylive-cloud-admin" options="-parameters" />
       <module name="easylive-cloud-base" options="-parameters" />
       <module name="easylive-cloud-common" options="-parameters" />
+      <module name="easylive-cloud-gateway" options="-parameters" />
       <module name="easylive-cloud-gateway (1)" options="-parameters" />
       <module name="easylive-cloud-gateway (2)" options="-parameters" />
       <module name="easylive-cloud-interact" options="-parameters" />

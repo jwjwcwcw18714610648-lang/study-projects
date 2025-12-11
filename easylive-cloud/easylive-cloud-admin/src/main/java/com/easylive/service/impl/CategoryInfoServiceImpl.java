@@ -1,5 +1,6 @@
 package com.easylive.service.impl;
 
+import com.easylive.api.consumer.WebClient;
 import com.easylive.component.RedisComponent;
 import com.easylive.entity.constants.Constants;
 import com.easylive.entity.enums.PageSize;
@@ -32,7 +33,8 @@ public class CategoryInfoServiceImpl implements CategoryInfoService {
 	private CategoryInfoMapper<CategoryInfo, CategoryInfoQuery> categoryInfoMapper;
     @Autowired
     private RedisComponent redisComponent;
-
+    @Resource
+    private WebClient webClient;
 
 
 	/**
@@ -129,14 +131,13 @@ private void save2Redis(){
 
 	@Override
 	public void delCategory(Integer categoryId) {
-		//todo 查询分类项目下是否有视频
 		VideoInfoQuery videoInfoQuery = new VideoInfoQuery();
 		videoInfoQuery.setCategoryIdOrPCategoryId(categoryId);
-		//todo web模块提供调用的功能
-//		Integer count = videoInfoService.findCountByParam(videoInfoQuery);
-//		if (count > 0) {
-//			throw new BusinessException("分类下有视频信息，无法删除");
-//		}
+
+		Integer count = webClient.getVideoCount(videoInfoQuery);
+		if (count > 0) {
+			throw new BusinessException("分类下有视频信息，无法删除");
+		}
 		CategoryInfoQuery categoryInfoQuery=new CategoryInfoQuery();
 		categoryInfoQuery.setCategoryIdOrPCategoryId(categoryId);
 		categoryInfoMapper.deleteByParam(categoryInfoQuery);

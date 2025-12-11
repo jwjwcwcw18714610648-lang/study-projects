@@ -18,4 +18,15 @@ public class VideoInfoResultVO {
     public void setVideoInfo(VideoInfo videoInfo) {
         this.videoInfo = videoInfo;
     }
+
+    public VideoInfoResultVO() {
+    }
+
+    public List getUserActionList() {
+        return userActionList;
+    }
+
+    public void setUserActionList(List userActionList) {
+        this.userActionList = userActionList;
+    }
 }

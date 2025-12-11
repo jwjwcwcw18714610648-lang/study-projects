@@ -1,5 +1,6 @@
 package com.easylive.service.impl;
 
+import com.easylive.api.consumer.InteractClient;
 import com.easylive.component.EsSearchComponent;
 import com.easylive.component.RedisComponent;
 import com.easylive.entity.config.AppConfig;
@@ -63,7 +64,8 @@ public class VideoInfoServiceImpl implements VideoInfoService {
 	private AppConfig appConfig;
     @Resource
     private UserInfoMapper userInfoMapper;
-
+    @Resource
+    private InteractClient interactClient;
 	/**
 	 * 根据条件查询列表
 	 */
@@ -226,16 +228,8 @@ public class VideoInfoServiceImpl implements VideoInfoService {
 			VideoInfoFilePostQuery videoInfoFilePostQuery = new VideoInfoFilePostQuery();
 			videoInfoFilePostQuery.setVideoId(videoId);
 			videoInfoFilePostMapper.deleteByParam(videoInfoFilePostQuery);
-//todo 弹幕和评论
-//			//删除弹幕
-//			VideoDanmuQuery videoDanmuQuery = new VideoDanmuQuery();
-//			videoDanmuQuery.setVideoId(videoId);
-//			videoDanmuMapper.deleteByParam(videoDanmuQuery);
-//
-//			//删除评论
-//			VideoCommentQuery videoCommentQuery = new VideoCommentQuery();
-//			videoCommentQuery.setVideoId(videoId);
-//			videoCommentMapper.deleteByParam(videoCommentQuery);
+            interactClient.delCommentByVideoId(videoId);
+            interactClient.delDanmuByVideoId(videoId);
 
 			//删除文件
 			for (VideoInfoFile item : videoInfoFileList) {

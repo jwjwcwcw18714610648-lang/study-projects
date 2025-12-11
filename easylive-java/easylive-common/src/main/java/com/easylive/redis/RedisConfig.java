@@ -1,31 +1,48 @@
 package com.easylive.redis;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.jsontype.impl.LaissezFaireSubTypeValidator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.RedisMessageListenerContainer;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @Configuration
-public class RedisConfig<V> {
-    private static final Logger logger = LoggerFactory.getLogger(RedisConfig.class);
-
+public class RedisConfig { // 1. 去掉泛型 <V>
 
     @Bean("redisTemplate")
-    public RedisTemplate<String, V> redisTemplate(RedisConnectionFactory factory) {
-        RedisTemplate<String, V> template = new RedisTemplate<>();
+    public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory factory) {
+        RedisTemplate<String, Object> template = new RedisTemplate<>();
         template.setConnectionFactory(factory);
-        // 设置key的序列化方式
-        template.setKeySerializer(RedisSerializer.string());
-        // 设置value的序列化方式
-        template.setValueSerializer(RedisSerializer.json());
-        // 设置hash的key的序列化方式
-        template.setHashKeySerializer(RedisSerializer.string());
-        // 设置hash的value的序列化方式
-        template.setHashValueSerializer(RedisSerializer.json());
+
+        // 2. 定义 Key 的序列化器 (String)
+        RedisSerializer<String> redisSerializer = new StringRedisSerializer();
+
+        // 3. 定义 Value 的序列化器 (Jackson)
+        // 使用 Jackson2JsonRedisSerializer 来序列化对象
+        Jackson2JsonRedisSerializer<Object> jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer<>(Object.class);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        // 指定要序列化的域，field,get,set,以及修饰符范围，ANY是都有包括private和public
+        objectMapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
+        // 【关键】指定序列化输入的类型，类必须是非final修饰的。
+        // 这一步确保了 Redis 中会存储 "@class": "com.example.User" 这样的信息
+        objectMapper.activateDefaultTyping(LaissezFaireSubTypeValidator.instance, ObjectMapper.DefaultTyping.NON_FINAL);
+
+        jackson2JsonRedisSerializer.setObjectMapper(objectMapper);
+
+        // 4. 设置序列化器
+        template.setKeySerializer(redisSerializer);
+        template.setValueSerializer(jackson2JsonRedisSerializer); // 使用配置好的 Jackson
+        template.setHashKeySerializer(redisSerializer);
+        template.setHashValueSerializer(jackson2JsonRedisSerializer);
+
         template.afterPropertiesSet();
         return template;
     }

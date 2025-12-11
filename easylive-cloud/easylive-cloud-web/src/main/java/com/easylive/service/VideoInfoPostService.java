@@ -76,4 +76,8 @@ public interface VideoInfoPostService {
 
 	void transferVideoFile(VideoInfoFilePost videoInfoFilePost) throws IOException;
 	void auditVideo(@NotEmpty String videoId, @NotNull Integer status, String reason) throws IOException;
+
+    void recommendVideo(@NotEmpty String videoId);
+
+    void transferVideoFile4Db(String videoId, String uploadId, String userId, VideoInfoFilePost updateFilePost);
 }

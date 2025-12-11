@@ -18,6 +18,7 @@ import com.easylive.mappers.VideoCommentMapper;
 
 import com.easylive.service.VideoCommentService;
 import com.easylive.utils.StringTools;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -191,7 +192,7 @@ public class VideoCommentServiceImpl implements VideoCommentService {
 		return this.videoCommentMapper.deleteByCommentId(commentId);
 	}
 	@Override
-	@Transactional(rollbackFor = Exception.class)
+	@GlobalTransactional(rollbackFor = Exception.class)
 	public void postComment(VideoComment comment, Integer replyCommentId) {
 
 		VideoInfo videoInfo = (VideoInfo) videoClient.getVideoInfoByVideoId(comment.getVideoId());
@@ -225,6 +226,8 @@ public class VideoCommentServiceImpl implements VideoCommentService {
 		//增加评论数
 		if (comment.getpCommentId() == 0) {
 			this.videoClient.updateCountInfo(comment.getVideoId(), UserActionTypeEnum.VIDEO_COMMENT.getField(), 1);//只增加父id为0的评论数
+
 		}
+
 	}
 }

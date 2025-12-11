@@ -9,6 +9,8 @@ import com.easylive.entity.enums.ResponseCodeEnum;
 import com.easylive.entity.vo.ResponseVO;
 import com.easylive.exception.BusinessException;
 import com.easylive.utils.DateUtil;
+import feign.Response;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -19,9 +21,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Date;
 
-
+@Slf4j
 public class ABaseController {
 
     @Resource
@@ -148,5 +152,19 @@ public class ABaseController {
             ip = request.getRemoteAddr();
         }
         return ip;
+    }
+    public void convertFileReponse2Stream(HttpServletResponse servletResponse, Response response) {
+        Response.Body body = response.body();
+        try (InputStream fileInputStream = body.asInputStream();
+             OutputStream outStream = servletResponse.getOutputStream()) {
+            byte[] bytes = new byte[1024];
+            int len;
+            while ((len = fileInputStream.read(bytes)) != -1) {
+                outStream.write(bytes, 0, len);
+            }
+            outStream.flush();
+        } catch (Exception e) {
+            log.error("读取文件流失败", e);
+        }
     }
 }

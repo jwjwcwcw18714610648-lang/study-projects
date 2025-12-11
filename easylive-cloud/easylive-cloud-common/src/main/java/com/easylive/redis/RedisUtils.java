@@ -7,12 +7,13 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import javax.annotation.Resource;
+import java.io.Serializable;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 @Component("redisUtils")
-public class RedisUtils<V> {
+public class RedisUtils<V>  {
 
     @Resource
     private RedisTemplate<String, V> redisTemplate;

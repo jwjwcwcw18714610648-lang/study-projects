@@ -12,7 +12,6 @@ import com.easylive.entity.query.VideoInfoQuery;
 import com.easylive.entity.vo.PaginationResultVO;
 import com.easylive.entity.vo.ResponseVO;
 import com.easylive.entity.vo.UserInfoVO;
-//import com.easylive.service.UserActionService;
 import com.easylive.service.UserFocusService;
 import com.easylive.service.UserInfoService;
 import com.easylive.service.VideoInfoService;
@@ -39,9 +38,7 @@ public class UHomeController extends ABaseController {
 
     @Resource
     private UserFocusService userFocusService;
-//
-//    @Resource
-//    private UserActionService userActionService;
+
 
     @RequestMapping("/getUserInfo")
 
@@ -139,17 +136,16 @@ public class UHomeController extends ABaseController {
         PaginationResultVO resultVO = videoInfoService.findListByPage(infoQuery);
         return getSuccessResponseVO(resultVO);
     }
-//    @RequestMapping("/loadUserCollection")
+/*    @RequestMapping("/loadUserCollection")
 
-//    public ResponseVO loadUserCollection(@NotEmpty String userId, Integer pageNo) {//传入被观测者的userid
-//        UserActionQuery actionQuery = new UserActionQuery();
-//        actionQuery.setActionType(UserActionTypeEnum.VIDEO_COLLECT.getType());//需要查询当前用户收藏的视频
-//        actionQuery.setUserId(userId);
-//        actionQuery.setPageNo(pageNo);
-//        actionQuery.setQueryVideoInfo(true);//需要设置需要关联查询视频详细信息
-//        actionQuery.setOrderBy("action_time desc");
-//        //todo
-///       PaginationResultVO resultVO = userActionService.findListByPage(actionQuery);
-//        return getSuccessResponseVO(resultVO);
-//    }
+    public ResponseVO loadUserCollection(@NotEmpty String userId, Integer pageNo) {//传入被观测者的userid
+        UserActionQuery actionQuery = new UserActionQuery();
+        actionQuery.setActionType(UserActionTypeEnum.VIDEO_COLLECT.getType());//需要查询当前用户收藏的视频
+        actionQuery.setUserId(userId);
+        actionQuery.setPageNo(pageNo);
+        actionQuery.setQueryVideoInfo(true);//需要设置需要关联查询视频详细信息
+        actionQuery.setOrderBy("action_time desc");
+        PaginationResultVO resultVO = userActionService.findListByPage(actionQuery);
+        return getSuccessResponseVO(resultVO);
+    }*/
 }

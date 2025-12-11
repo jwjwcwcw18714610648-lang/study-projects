@@ -30,7 +30,7 @@ public class Constants {
     public static final String TOKEN_WEB = "token_--web";
     public static final String TOKEN_ADMIN = "token_--admin";
     public static final String REGEX_PASSWORD = "^(?=.*\\d)(?=.*[a-zA-Z])[\\da-zA-Z~!@#$%^&*_]{8,18}$";
-    public static  final  String REDIS_KEY_CATEGORY_LIST=REDIS_KEY_PREFIX +"category_list";
+    public static  final  String REDIS_KEY_CATEGORY_LIST=REDIS_KEY_PREFIX +"category:list";
     //系统设置
     public static final String REDIS_KEY_SYS_SETTING = REDIS_KEY_PREFIX + "sysSetting:";
 

@@ -34,6 +34,17 @@ public class UserInfoApi {
     public UserInfo getUserInfoByUserId(@NotEmpty String userId) {
         return userInfoService.getUserInfoByUserId(userId);
     }
+    @RequestMapping("/loadUser")
+    public PaginationResultVO loadUser(@RequestBody UserInfoQuery userInfoQuery) {
+        PaginationResultVO resultVO = userInfoService.findListByPage(userInfoQuery);
+        return resultVO;
+    }
 
+    @RequestMapping("/changeStatus")
+    public void changeStatus(@RequestParam String userId, @RequestParam Integer status) {
+        UserInfo userInfo = new UserInfo();
+        userInfo.setStatus(status);
+        userInfoService.updateUserInfoByUserId(userInfo, userId);
+    }
 
 }

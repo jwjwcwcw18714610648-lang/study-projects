@@ -19,6 +19,7 @@ import com.easylive.service.VideoInfoPostService;
 import com.easylive.utils.CopyTools;
 import com.easylive.utils.FFmpegUtils;
 import com.easylive.utils.StringTools;
+import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.ArrayUtils;
@@ -224,6 +225,32 @@ public class VideoInfoPostServiceImpl implements VideoInfoPostService {
         // 17. 将视频信息同步到ES索引中，便于搜索
         esSearchComponent.saveDoc(videoInfo);
     }
+    @Override
+    @GlobalTransactional(rollbackFor = Exception.class)
+    public void transferVideoFile4Db(String videoId, String uploadId, String userId, VideoInfoFilePost updateFilePost) {
+        //更新文件状态
+        videoInfoFilePostMapper.updateByUploadIdAndUserId(updateFilePost, uploadId, userId);
+        //更新视频信息
+        VideoInfoFilePostQuery fileQuery = new VideoInfoFilePostQuery();
+        fileQuery.setVideoId(videoId);
+        fileQuery.setTransferResult(VideoFileTransferResultEnum.FAIL.getStatus());
+        Integer failCount = videoInfoFilePostMapper.selectCount(fileQuery);
+        if (failCount > 0) {
+            VideoInfoPost videoUpdate = new VideoInfoPost();
+            videoUpdate.setStatus(VideoStatusEnum.STATUS1.getStatus());
+            videoInfoPostMapper.updateByVideoId(videoUpdate, videoId);
+            return;
+        }
+        fileQuery.setTransferResult(VideoFileTransferResultEnum.TRANSFER.getStatus());
+        Integer transferCount = videoInfoFilePostMapper.selectCount(fileQuery);
+        if (transferCount == 0) {
+            Integer duration = videoInfoFilePostMapper.sumDuration(videoId);
+            VideoInfoPost videoUpdate = new VideoInfoPost();
+            videoUpdate.setStatus(VideoStatusEnum.STATUS2.getStatus());
+            videoUpdate.setDuration(duration);
+            videoInfoPostMapper.updateByVideoId(videoUpdate, videoId);
+        }
+    }
 
     /**
      * 分页查询方法
@@ -239,7 +266,22 @@ public class VideoInfoPostServiceImpl implements VideoInfoPostService {
         PaginationResultVO<VideoInfoPost> result = new PaginationResultVO(count, page.getPageSize(), page.getPageNo(), page.getPageTotal(), list);
         return result;
     }
-
+    @Override
+    public void recommendVideo(String videoId) {
+        VideoInfo videoInfo = videoInfoMapper.selectByVideoId(videoId);
+        if (videoInfo == null) {
+            throw new BusinessException(ResponseCodeEnum.CODE_600);
+        }
+        Integer recommendType = null;
+        if (VideoRecommendTypeEnum.RECOMMEND.getType().equals(videoInfo.getRecommendType())) {
+            recommendType = VideoRecommendTypeEnum.NO_RECOMMEND.getType();
+        } else {
+            recommendType = VideoRecommendTypeEnum.RECOMMEND.getType();
+        }
+        VideoInfo updateInfo = new VideoInfo();
+        updateInfo.setRecommendType(recommendType);
+        videoInfoMapper.updateByVideoId(updateInfo, videoId);
+    }
     /**
      * 新增
      */
@@ -334,7 +376,6 @@ public class VideoInfoPostServiceImpl implements VideoInfoPostService {
      * 6. 新增的分P统一加入转码队列，等待后续处理。
      */
     @Override
-    @Transactional(rollbackFor = Exception.class)
     public void saveVideoInfo(VideoInfoPost videoInfoPost, List<VideoInfoFilePost> uploadFileList) {
         // 1. 校验分P数量
         if (uploadFileList.size() > redisComponent.getSysSettingDto().getVideoCount()) {
